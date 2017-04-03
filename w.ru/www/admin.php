@@ -21,10 +21,10 @@
 		<div class="notice">
 			<ul>
 				<li><a href="#" class="user">
-					<img src="app/img/user.png" alt="user">
+<!--						<img src="app/img/user.png" alt="user">-->
 					<div class="text">
-						<h5>Asif Aleem</h5>
-						<p>Administrator</p>
+						<h5>Administrator</h5>
+<!--						<p>Administrator</p>-->
 					</div>
 				</a></li>
 			</ul>
