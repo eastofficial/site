@@ -1,0 +1,47 @@
+/* font-family: "DroidSerifRegular"; */
+@font-face {
+    font-family: "DroidSerifRegular";
+    src: url("../fonts/DroidSerif/DroidSerifRegular/DroidSerifRegular.eot");
+    src: url("../fonts/DroidSerif/DroidSerifRegular/DroidSerifRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DroidSerif/DroidSerifRegular/DroidSerifRegular.woff") format("woff"),
+    url("../fonts/DroidSerif/DroidSerifRegular/DroidSerifRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DroidSerifBold"; */
+@font-face {
+    font-family: "DroidSerifBold";
+    src: url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.eot");
+    src: url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.woff") format("woff"),
+    url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DroidSerifItalic"; */
+@font-face {
+    font-family: "DroidSerifItalic";
+    src: url("../fonts/DroidSerif/DroidSerifItalic/DroidSerifItalic.eot");
+    src: url("../fonts/DroidSerif/DroidSerifItalic/DroidSerifItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DroidSerif/DroidSerifItalic/DroidSerifItalic.woff") format("woff"),
+    url("../fonts/DroidSerif/DroidSerifItalic/DroidSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DroidSerifBoldItalic"; */
+@font-face {
+    font-family: "DroidSerifBoldItalic";
+    src: url("../fonts/DroidSerif/DroidSerifBoldItalic/DroidSerifBoldItalic.eot");
+    src: url("../fonts/DroidSerif/DroidSerifBoldItalic/DroidSerifBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DroidSerif/DroidSerifBoldItalic/DroidSerifBoldItalic.woff") format("woff"),
+    url("../fonts/DroidSerif/DroidSerifBoldItalic/DroidSerifBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Werfus"; */
+@font-face {
+    font-family: "Werfus";
+    src: url("../fonts/Werfus.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

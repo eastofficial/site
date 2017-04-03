@@ -1,0 +1,44 @@
+nav {
+width:850px;
+height:auto;
+margin:10px auto;
+text-align:center;
+}
+
+nav a {
+padding:2px;
+background-color:#EFEFEF;
+border:1px solid #D5C2C2;
+text-decoration:none;
+color:black;
+font-size:10pt;
+margin:2px;
+border-radius:5px;
+}
+
+article {
+width:100%;
+height:auto;
+margin:auto;
+}
+
+article section {
+border-bottom:1px dashed #BDECFE;
+}
+
+article section h2 {
+color:#41738A;
+font-size:17pt;
+}
+
+article section p {
+font-size:10pt;
+}
+
+article section p.time {
+font-size:9pt;
+color:#516168;
+text-align:right;
+margin-bottom:0px;
+padding-bottom:0px;
+}

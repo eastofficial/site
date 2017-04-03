@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DroidSerifRegular", Tahoma;
+}
+
+body {
+    background: url("../img/bg1.png");
+    min-width: 750px;
+}
+
+.head {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1);
+    z-index: 99999;
+}
+
+.head ul {
+    list-style: none;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 65px;
+}
+
+.head ul li {
+    float: left;
+    width: calc(100%/4);
+}
+
+/*
+.head ul li:last-child a {
+    color: #fa7eff;
+}
+
+.head ul li:last-child a:hover {
+    color: #fa7eff;
+    text-decoration: underline;
+}
+
+.head #enter a {
+    color: #97b7d8;
+}
+
+.head #enter a:hover {
+    color: #97b7d8;
+    text-decoration: underline;
+}
+*/
+
+.head ul li a {
+    text-decoration: none;
+    color: #6a6a6a;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-family: "DroidSerifBold";
+}
+
+.head ul li a:hover {
+    text-decoration: underline;
+    color: #26bc68;
+}
+
+.content {
+    width: 700px;
+    margin: 65px auto;
+}
+
+.content .iSlider {
+    width: 700px;
+    height: 300px;
+    background: #595959;
+}
+
+.content .iContentText {
+    margin: 85px 0 150px 0;
+    background: #fff;
+    padding: 60px 45px;
+    -webkit-box-shadow: 0px 8px 21px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 21px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 21px 2px rgba(0,0,0,0.1);
+}
+
+.content .iContentText .iHeadText {
+    font-family: "DroidSerifBold";
+    color: #282828;
+    text-align: center;
+}
+
+.content .iContentText .iText {
+    font-family: "DroidSerifRegular";
+    color: #4a4a4a;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.content .iContentText .iTextItalic {
+    font-family: "DroidSerifItalic";
+    color: #4a4a4a;
+    text-align: center;
+    width: 500px;
+    margin: 55px auto;
+    position: relative;
+}
+
+.content .iContentText .iTextItalic .iIco1 {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    background: url("../img/1.png");
+    width: 29px;
+    height: 19px;
+    background-size: 100%;
+}
+
+.content .iContentText .iTextItalic .iIco2 {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    background: url("../img/1.png");
+    width: 29px;
+    height: 19px;
+    background-size: 100%;
+    transform: rotate(180deg);
+}
+
+.content .iHeader {
+    width: 700px;
+    position: relative;
+}
+
+.content .iHeader .iSocial {
+    height: 30px;
+    padding-top: 40px;
+}
+
+.content .iHeader .iSocial ul {
+    list-style: none;
+    width: 140px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.content .iHeader .iSocial ul li {
+    float: left;
+}
+
+.content .iHeader .iSocial ul li:nth-child(1) {
+    background: url("../img/social.png") 2px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(2) {
+    background: url("../img/social.png") -22px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(3) {
+    background: url("../img/social.png") -50px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(4) {
+    background: url("../img/social.png") -76px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(5) {
+    background: url("../img/social.png") -101px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(6) {
+    background: url("../img/social.png") -123px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:nth-child(7) {
+    background: url("../img/social.png") -148px 0px no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 850%;
+    opacity: 0.4;
+}
+
+.content .iHeader .iSocial ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content .iHeader .iMidBlock {
+    text-align: center;
+    font-family: "Werfus";
+    font-size: 36px;
+    position: relative;
+    color: #1d1d1d;
+}
+
+.content .iHeader .iText {
+    text-align: center;
+    font-family: "Werfus";
+    font-size: 100px;
+    color: #1d1d1d;
+}
+
+.iHorGreenLine1 {
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    background: #9ce0bb;
+    left: 0;
+    bottom: 0;
+    margin: 0px 0px 18px 125px;
+}
+
+.iHorGreenLine2 {
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    background: #9ce0bb;
+    right: 0;
+    bottom: 0;
+    margin: 0px 125px 18px 0;
+}
+
+article {
+width:100%;
+height:auto;
+margin:auto;
+}
+
+article section {
+border-bottom:1px dashed #BDECFE;
+}
+
+article section h2 {
+color:#41738A;
+font-size:17pt;
+}
+
+article section p {
+font-size:10pt;
+}
+
+article section p.time {
+font-size:9pt;
+color:#516168;
+text-align:right;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: #808080;
+    bottom: 0;
+}
+
+.footer .iCopy {
+    color: #fff;
+    text-align: center;
+    font-family: "DroidSerifBold";
+    line-height: 100px;
+    position: relative;
+}
+
+.footer .iCopy .iBtnUp {
+    width: 55px;
+    height: 55px;
+    background: url("../img/up_btn.png");
+    background-size: 100%;
+    position: absolute;
+    right: 22.5px;
+    top: 22.5px;
+    cursor: pointer;
+    border-radius: 50%;
+}

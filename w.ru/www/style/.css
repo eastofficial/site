@@ -1,0 +1,116 @@
+@import url(http://allfont.ru/allfont.css?fonts=lobster);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../img/gaus.png") no-repeat;
+}
+
+.content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	max-width: 310px;
+	background-color: #587983;
+	border-radius: 10px;
+	height: 350px;
+}
+
+.content .head font {
+	font-family: 'Lobster', arial;
+	color: white;
+	font-size: 1.75em;
+}
+
+.content .head {
+	padding-top: 7px;
+	text-align: center;
+	width: 100%;
+	height: 15%;
+	background: #344b52;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+
+.content .bodyContent {
+	text-align: center;
+	margin-top: 10%;
+	width: 100%;
+	height: 80%;
+}
+
+.content .bodyContent font a{
+	text-decoration: none;
+	color: #f25750;
+}
+
+.content .bodyContent .loginpass  {
+	margin-top: 5%;
+	border-radius: 10px;
+	width: 80%;
+	height: 40px;
+	background-color: #cfd3ca;
+	-webkit-box-shadow: inset -2px 21px 73px -34px rgba(0,0,0,0.45);
+	-moz-box-shadow: inset -2px 21px 73px -34px rgba(0,0,0,0.45);
+	box-shadow: inset -2px 21px 73px -34px rgba(0,0,0,0.45);
+	border: 0;
+	outline: none;
+}
+
+.content .bodyContent form .enter {
+	margin-top: 35px;
+	border-radius: 10px;
+	display: block;
+	font-family: 'Lobster', arial;
+	font-size: 1.7em;
+	color: white;
+	background-color: #1e2c30;
+	width: 50%;
+	height: 40px;
+}
+
+.content .bodyContent font {
+	font-family: 'Lobster', arial;
+	color: white;
+	margin-top: 222px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: inherit;
+	position: absolute;
+}
+
+@media (max-width: 700px) {
+
+	.content .bodyContent form .enter {
+		margin-top: 35px;
+		border-radius: 10px;
+		display: block;
+		font-family: 'Lobster', arial;
+		font-size: 1.7em;
+		color: white;
+		background-color: #1e2c30;
+		width: 50%;
+		height: 40px;
+	}	
+
+	.content .bodyContent font {
+		font-family: 'Lobster', arial;
+		color: white;
+		margin-top: 230px;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		display: inherit;
+		position: absolute;
+	}
+
+}
