@@ -16,8 +16,8 @@
         if ($row["login"] == "") {
             return false;
         } else {
-            setcookie("login", $row["login"]);
-            setcookie("status", $row["status"]);
+            setcookie("login", $row["login"], time()+2600);
+            setcookie("status", $row["status"], time()+2600);
             header("Location: admin.php");
             }
         }
